@@ -1,0 +1,3 @@
+[submodule "Chico/vendor/spdlog"]
+	path = Chico/vendor/spdlog
+	url = https://github.com/gabime/spdlog
