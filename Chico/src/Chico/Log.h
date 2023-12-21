@@ -3,6 +3,7 @@
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Chico {
 	class CHICO_API Log

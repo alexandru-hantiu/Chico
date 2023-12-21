@@ -4,6 +4,9 @@
     <Filter Include="Chico">
       <UniqueIdentifier>{2B3DF60C-9751-1EBE-60D3-C11DCCA61AEF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chico\Events">
+      <UniqueIdentifier>{AF0A7446-9B6D-03EB-44F3-3BA13035CF6D}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Chico.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Chico\Entrypoint.h">
       <Filter>Chico</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chico\Events\ApplicationEvent.h">
+      <Filter>Chico\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chico\Events\Event.h">
+      <Filter>Chico\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chico\Events\KeyEvent.h">
+      <Filter>Chico\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Chico\Events\MouseEvent.h">
+      <Filter>Chico\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Chico\Log.h">
       <Filter>Chico</Filter>
