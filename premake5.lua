@@ -19,6 +19,8 @@ project "Chico"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "chcpch.h"
+	pchsource "Chico/src/chcpch.cpp"
 
 	files
 	{

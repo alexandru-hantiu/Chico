@@ -1,9 +1,6 @@
 #pragma once
-
+#include "chcpch.h"
 #include "Chico/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Chico {
 

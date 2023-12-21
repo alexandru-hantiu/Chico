@@ -1,8 +1,6 @@
 #pragma once
-
+#include "chcpch.h"
 #include "Event.h"
-
-#include <sstream>
 
 namespace Chico {
 

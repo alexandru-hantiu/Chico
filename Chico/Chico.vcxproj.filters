@@ -34,6 +34,7 @@
     <ClInclude Include="src\Chico\Log.h">
       <Filter>Chico</Filter>
     </ClInclude>
+    <ClInclude Include="src\chcpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Chico\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Chico\Log.cpp">
       <Filter>Chico</Filter>
     </ClCompile>
+    <ClCompile Include="src\chcpch.cpp" />
   </ItemGroup>
 </Project>

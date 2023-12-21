@@ -1,3 +1,4 @@
+#include "chcpch.h"
 #include "Application.h"
 
 #include "Chico/Events/ApplicationEvent.h"
